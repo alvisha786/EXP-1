@@ -1,8 +1,8 @@
 ## EXPERIMENT NO. 1 – VERIFICATION OF KIRCHHOFF'S LAWS
 
-| **Name:** | | **Reg. No.:** | |
+| **Name:** | **Alvina Inayath Sha** | **Reg. No.:** | **26013515** |
 |---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
+| **Date:** | **12-11-2026** | **Batch / Section:** |  |
 
 ---
 
@@ -54,13 +54,15 @@ b. To verify Kirchhoff's Current Law (KCL) for the given circuit.
 
 ### A. KVL circuit diagram
 
-*[ Insert the KVL circuit diagram here ]*
+<img width="842" height="588" alt="Screenshot 2026-10-21 105222" src="https://github.com/user-attachments/assets/12a82d9c-a1cf-4d1d-ab12-f82c06930c12" />
+
 
 **Figure 1:** KVL verification circuit
 
 ### B. KCL circuit diagram
 
-*[ Insert the KCL circuit diagram here ]*
+<img width="1167" height="493" alt="Screenshot 2026-10-21 105627" src="https://github.com/user-attachments/assets/bfa35d08-b577-488e-86d0-5bf12658ee05" />
+
 
 **Figure 2:** KCL verification circuit
 
@@ -70,13 +72,15 @@ Build the KVL and KCL circuits in Proteus using the same resistor values and sup
 
 ### A. KVL simulation
 
-*[ Paste the Proteus KVL simulation screenshot here ]*
+<img width="877" height="595" alt="Screenshot 2026-10-19 235517" src="https://github.com/user-attachments/assets/70f3e210-3ef8-432b-93c2-f60aa3a32c87" />
+
 
 **Figure 3:** Proteus simulation of KVL circuit
 
 ### B. KCL simulation
 
-*[ Paste the Proteus KCL simulation screenshot here ]*
+<img width="1170" height="497" alt="Screenshot 2026-10-21 105609" src="https://github.com/user-attachments/assets/512b457f-137d-4abe-bc1d-a0b2f73e6b98" />
+
 
 **Figure 4:** Proteus simulation of KCL circuit
 
@@ -84,43 +88,42 @@ Build the KVL and KCL circuits in Proteus using the same resistor values and sup
 
 ### A. KVL – Voltage measurements
 
-| S. No. | Supply voltage Vs (V) | VR1 (V) | VR2 (V) | VR3 (V) | VR1 + VR2 + VR3 (V) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| S. No. | Supply voltage Vs (V) | VR1 (30 ohm) | VR2 (50 ohm) | VR3 (100 ohm) |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 (Theoretical) | 100 | 16.5 | 27.5 | 55  |
+| 2 (Practical)   | 100 | 16.7 | 27.8 | 55.6 | 
 
 ### B. KCL – Current measurements
 
-| S. No. | Supply voltage Vs (V) | Total current It (A) | Branch current I1 (A) | Branch current I2 (A) | Branch current I3 (A) | I1 + I2 + I3 (A) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
-| 4 | | | | | | |
-| 5 | | | | | | |
+| S. No. | I1 (30 ohm) | I2 (50 ohm) | I3 (100 ohm) | Node voltage Vn (V) |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 (Theoretical) | 1.579 | 1.052 | 0.526 | 52.63 |
+| 2 (Practical)   | 1.58 | 1.05 | 0.53 | 52.6 | 
 
 ## CALCULATIONS
 
 ### A. KVL
 
-According to KVL, **Vs = VR1 + VR2 + VR3**.
+According to KVL, **ΣV = 0**.
+Therefore, **Vs - V1 - V2 - V3 = 0**.
 
-Substitute the observed values and verify that the algebraic sum of the voltage drops is approximately equal to the supply voltage.
+Substitute the observed values and verify that the algebraic sum of the voltages around the closed loop is equal to zero.
 
-*[ Paste the KVL calculation screenshot here ]*
+<img width="1052" height="1600" alt="image" src="https://github.com/user-attachments/assets/38da93fa-3224-4fc0-892e-cc8c1b792cc6" />
+
 
 **Figure 5:** KVL calculation
 
 ### B. KCL
 
-According to KCL, **It = I1 + I2 + I3**.
+According to KCL, **ΣI entering = ΣI exiting**.
+Therefore, **I1 = I2 + I3**.
 
-Substitute the observed values and verify that the total current entering the node is approximately equal to the sum of the branch currents.
+Substitute the observed values and verify that the total current entering the node is equal to the sum of the currents leaving the node.
 
-*[ Paste the KCL calculation screenshot here ]*
+<img width="1068" height="1600" alt="image" src="https://github.com/user-attachments/assets/25e2207f-525a-47d7-aca0-093f0a653189" />
+<img width="1600" height="1274" alt="image" src="https://github.com/user-attachments/assets/375bb7ae-2f54-4d17-814e-793bb755c085" />
+
 
 **Figure 6:** KCL calculation
 
