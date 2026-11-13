@@ -2,7 +2,7 @@
 
 | **Name:** | **Alvina Inayath Sha** | **Reg. No.:** | **26013515** |
 |---|---|---|---|
-| **Date:** | **12-11-2026** | **Batch / Section:** |  |
+| **Date:** | **12-11-2026** | **Batch / Section:** | **26ODJ084**  |
 
 ---
 
